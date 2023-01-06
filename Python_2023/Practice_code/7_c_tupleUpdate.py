@@ -17,6 +17,10 @@ print(newTuple)
 
 #removing item from the tuple with the help of List
 xTuple = (1,453,12,76,34,7876,34)
-yList = 
+yList = list(xTuple)
+yList.pop()
+xTuple = tuple(yList)
+print(xTuple)
+
 
 
